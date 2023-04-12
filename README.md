@@ -177,7 +177,7 @@ GitHub Pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/emhamza/LeadearBoard](../../issues/).
+Feel free to check the [https://github.com/emhamza/LeadearBoard/issues](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

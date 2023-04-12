@@ -5,6 +5,7 @@ const submitForm = document.querySelector('form');
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
 const tableBody = document.querySelector('tbody');
+const messageContainer = document.getElementById('message-container');
 
 refreshButton.addEventListener('click', async () => {
   const scores = await getScores();
@@ -24,11 +25,11 @@ submitForm.addEventListener('submit', async (event) => {
   const name = nameInput.value.trim();
   const score = scoreInput.value.trim();
   if (!name || !score) {
-    alert('Please enter both name and score!');
+    messageContainer.textContent = 'Please enter both name and score!';
     return;
   }
   const result = await submitScore(name, score);
-  alert(result);
+  messageContainer.textContent = result;
   nameInput.value = '';
   scoreInput.value = '';
 });

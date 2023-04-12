@@ -10,9 +10,12 @@
   margin: 10%;
 }
 
-.ref-btn {
-  width: 50%;
-  height: 30%;
+#ref-btn {
+  margin-left: 24%;
+
+  /* width: 50%; */
+
+  /* height: 30%; */
 }
 
 .my-table {
@@ -23,6 +26,11 @@
 }
 
 .section-2 {
+  margin-top: 10%;
   width: 60%;
-  margin: 10%;
+}
+
+#sub-btn {
+  margin-left: 82%;
+  margin-top: 5%;
 }

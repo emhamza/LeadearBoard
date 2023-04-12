@@ -2,3 +2,8 @@
 import _ from 'lodash';
 
 import './style.css';
+
+import { createGame } from './modules/game.js';
+import './modules/app.js';
+
+createGame();
